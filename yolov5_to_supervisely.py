@@ -9,12 +9,12 @@ from sahi.utils.file import list_files
 from tqdm import tqdm
 from yolov5.utils.dataloaders import IMG_FORMATS
 
-WEIGHTS = "/home/fatihakyon/Downloads/blenth_mix2_best.pt"
+WEIGHTS = "yolov5s.pt"
 DEVICE = "cuda:0"
-SOURCE_DIR = "/home/fatihakyon/data/aselsan_saha_fn/images"
+SOURCE_DIR = "images"
 SAVE_DIR = "results/"
-IMAGE_SIZE = 1344
-CONF_THRESHOLD = 0.1
+IMAGE_SIZE = 640
+CONF_THRESHOLD = 0.2
 IOU_THRESHOLD = 0.45
 META_JSON_PATH = "meta.json"
 
