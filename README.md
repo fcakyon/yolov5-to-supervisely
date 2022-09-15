@@ -2,7 +2,7 @@
 
 Use your yolov5 predictions as supervisely annotations
 
-# setup
+## setup
 
 - clone this repo
 
@@ -12,7 +12,7 @@ Use your yolov5 predictions as supervisely annotations
 pip install -r requirements.txt
 ```
 
-# usage
+## usage
 
 - set meta.json file
 
@@ -25,3 +25,7 @@ python yolov5_to_supervisely.py
 ```
 
 - upload output folder into supervisely via `Import Via Apps/Import Images in Supervisely Format`
+
+## credits
+
+thanks to [yavuzKomecoglu](https://github.com/yavuzKomecoglu) for the inspiration
